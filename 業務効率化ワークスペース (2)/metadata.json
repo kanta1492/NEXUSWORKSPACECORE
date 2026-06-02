@@ -1,0 +1,6 @@
+{
+  "name": "NEXUS WORKSPACE CORE",
+  "description": "タスク管理、作業記録、自動データ集計、Gemini AIによる日報・議事録の自動生成機能を備えた、個人専用の業務効率化ワークスペースです。",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
