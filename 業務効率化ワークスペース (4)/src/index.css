@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+/* Lock browser viewport and root frame to never scroll or shift */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  overflow: hidden !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+  width: 100% !important;
+  position: fixed !important;
+  left: 0;
+  top: 0;
+}
+
+@theme {
+  /* NX Electric Cyan/Sky-Blue Palette - Overriding default indigo colors */
+  --color-indigo-50: #ecfeff;
+  --color-indigo-100: #cffafe;
+  --color-indigo-200: #a5f3fc;
+  --color-indigo-300: #67e8f9;
+  --color-indigo-400: #22d3ee;
+  --color-indigo-500: #06b6d4; /* Vivid Cyan */
+  --color-indigo-600: #0ea5e9; /* Electric Sky Blue */
+  --color-indigo-700: #0369a1;
+  --color-indigo-800: #075985;
+  --color-indigo-900: #0c4a6e;
+  --color-indigo-950: #082f49;
+
+  /* Custom Fonts */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
